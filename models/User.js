@@ -1,6 +1,6 @@
-const bcrypt = require("bcrypt-nodejs");
-const crypto = require("crypto");
-const mongoose = require("mongoose");
+const bcrypt = require('bcrypt-nodejs');
+const crypto = require('crypto');
+const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema(
   {
@@ -33,9 +33,9 @@ const userSchema = new mongoose.Schema(
 /**
  * Password hash middleware.
  */
-userSchema.pre("save", function save(next) {
+userSchema.pre('save', function save(next) {
   const user = this;
-  if (!user.isModified("password")) {
+  if (!user.isModified('password')) {
     return next();
   }
   bcrypt.genSalt(10, (err, salt) => {
@@ -55,10 +55,7 @@ userSchema.pre("save", function save(next) {
 /**
  * Helper method for validating user's password.
  */
-userSchema.methods.comparePassword = function comparePassword(
-  candidatePassword,
-  cb
-) {
+userSchema.methods.comparePassword = function comparePassword(candidatePassword, cb) {
   bcrypt.compare(candidatePassword, this.password, (err, isMatch) => {
     cb(err, isMatch);
   });
@@ -75,12 +72,12 @@ userSchema.methods.gravatar = function gravatar(size) {
     return `https://gravatar.com/avatar/?s=${size}&d=retro`;
   }
   const md5 = crypto
-    .createHash("md5")
+    .createHash('md5')
     .update(this.email)
-    .digest("hex");
+    .digest('hex');
   return `https://gravatar.com/avatar/${md5}?s=${size}&d=retro`;
 };
 
-const User = mongoose.model("User", userSchema);
+const User = mongoose.model('User', userSchema);
 
 module.exports = User;
