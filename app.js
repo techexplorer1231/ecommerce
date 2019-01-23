@@ -19,6 +19,7 @@ const expressValidator = require('express-validator');
 const expressStatusMonitor = require('express-status-monitor');
 const sass = require('node-sass-middleware');
 const multer = require('multer');
+const routes = require('./routes/index');
 
 const upload = multer({ dest: path.join(__dirname, 'uploads') });
 
@@ -96,7 +97,8 @@ app.use((req, res, next) => {
   if (req.path === '/api/upload') {
     next();
   } else {
-    lusca.csrf()(req, res, next);
+    next();
+    // lusca.csrf()(req, res, next);
   }
 });
 app.use(lusca.xframe('SAMEORIGIN'));
@@ -354,6 +356,9 @@ app.get(
     res.redirect('/api/pinterest');
   }
 );
+
+// mount all routes on /ecommerce path
+app.use('/ecommerce', routes);
 
 /**
  * Error Handler.
