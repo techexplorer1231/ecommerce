@@ -1,5 +1,5 @@
 const express = require('express');
-const productRoutes = require('./product');
+const productRoutes = require('./product.routes');
 
 const router = express.Router(); // eslint-disable-line new-cap
 
