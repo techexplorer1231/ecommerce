@@ -20,6 +20,6 @@ router
   .put(productCtrl.update)
 
   /** DELETE /api/products/:productId - Delete product */
-  .delete(productCtrl.remove);
+  .delete(productCtrl.delete);
 
 module.exports = router;
