@@ -1,5 +1,7 @@
 language: node_js
 node_js:
+  - '8'
+  - '9'
   - '10'
 services: mongodb
 cache:
@@ -7,7 +9,7 @@ cache:
     - 'node_modules'
 sudo: false
 install:
-  - npm install
+  - yarn install
 script:
-  - npm run lint
-  - npm test
+  - yarn run lint
+  - yarn test
