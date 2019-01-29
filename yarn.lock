@@ -4579,10 +4579,10 @@ passport-instagram@^1.0.0:
   dependencies:
     passport-oauth2 "1.x.x"
 
-passport-linkedin-oauth2@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/passport-linkedin-oauth2/-/passport-linkedin-oauth2-1.6.0.tgz#8595e08f9e2139044166190eb624bd30f0ad75bc"
-  integrity sha512-lzDGfCAt+dKjcingjBbltzvwH8RoQhWqYDcl+HJNNRWVZyX39aQyZts6BsdNVd+gzI4lkJ4HpnemED/1ML4hHQ==
+passport-linkedin-oauth2@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/passport-linkedin-oauth2/-/passport-linkedin-oauth2-1.6.1.tgz#e540db935d9bfd65b0179f4bb424bd5d87d3f76e"
+  integrity sha512-0qHAyxmiJxzk91C4VjlUWw7KtS6/33TFeFhvY1n2GaVpVfLfXEYJfQxls+jFbpetu/Wu5X2QgzWPJSf9F9k/IA==
   dependencies:
     passport-oauth2 "1.x.x"
     underscore "^1.7.0"
