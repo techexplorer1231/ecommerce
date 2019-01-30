@@ -3452,10 +3452,10 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-lob@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/lob/-/lob-6.0.3.tgz#51c3f5c781af96cc3ce6b2ede4a27558ba8b6eaa"
-  integrity sha512-vmqIydXe48sQZxzhnQYdFJKwCJtCc3ifznPqXWMeH0CBUq2JUNjau5Rwk/D1xoGBC+WosVDtGIQSAE5Vf15deA==
+lob@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/lob/-/lob-6.0.4.tgz#ebb8e109dbd32804acd86ac2e3f1956549d4615a"
+  integrity sha512-YJbQfdAVCEvyPMNsCX/sjKDeLj5GEspSaho7SNG1cAzozu1+5+Yo3soOMEY9UwuyHF/iMrKE02Nzz45vYpGTag==
   dependencies:
     bluebird "^3.0.6"
     request "^2.88.0"
