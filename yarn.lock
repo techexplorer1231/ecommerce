@@ -134,10 +134,10 @@
     node-fetch "^2.3.0"
     universal-user-agent "^2.0.1"
 
-"@octokit/rest@^16.13.1":
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.13.1.tgz#abc132110aa7584d4ebfff3c9fff9a7d6a0c3ae7"
-  integrity sha512-r7Dg0m27todnsiXdvZcZfQm7TCND7a5vC4/IwuLoIcg1mhwk26cWsUSOMzSXOUjxjjun5H2oKzM0vBVtohKypw==
+"@octokit/rest@^16.15.1":
+  version "16.15.1"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.15.1.tgz#fe1e00d5eda9ac625397e7f396ad910927e83615"
+  integrity sha512-DBkTL/yZZOjRuVqKH5Tbymf7ZwqNi1ju0SjKoaxXVhdu7Z5OyZQkZRYr0jXKUfg22ALHMudEwdv2MtqX99KIxA==
   dependencies:
     "@octokit/request" "2.3.0"
     before-after-hook "^1.2.0"
