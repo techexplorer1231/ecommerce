@@ -5571,10 +5571,10 @@ simple-git@^1.85.0:
   dependencies:
     debug "^4.0.1"
 
-sinon-mongoose@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/sinon-mongoose/-/sinon-mongoose-2.2.1.tgz#0096d0c0cd650846cdb30c9ca78d3cb23c6b488f"
-  integrity sha512-Z+E3924Bvy+Gre9bKT3IyQuXOtw6ZI+4VoC49X2pQoOf+wrC0yCi0jd+FtVD+xsRvSKcR+GscPbFaGm1ZkPNDg==
+sinon-mongoose@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/sinon-mongoose/-/sinon-mongoose-2.3.0.tgz#5b178606551a46368c9cb269b0d4d477ca3e1436"
+  integrity sha512-d0rrL53wuDDs91GMCFAvQam64IpdVfkaxA4cGLTZfw1d5tTg6+F/D7F080d1n3d1gSHJBZLUf9pGpijC/x7xKQ==
 
 sinon@^7.2.2:
   version "7.2.3"
