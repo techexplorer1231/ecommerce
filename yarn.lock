@@ -6175,14 +6175,14 @@ tsscmp@^1.0.5:
   resolved "https://registry.yarnpkg.com/tsscmp/-/tsscmp-1.0.6.tgz#85b99583ac3589ec4bfef825b5000aa911d605eb"
   integrity sha512-LxhtAkPDTkVCMQjt2h6eBVY28KCjikZqZfMcC15YBeNjkgUpdCfBu5HoiOTDu86v6smE8yOjyEktJ8hlbANHQA==
 
-tumblr.js@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tumblr.js/-/tumblr.js-2.0.0.tgz#6d008da4b565194749a2f98c7ce514d5dbf6e062"
-  integrity sha512-xT4DaiaLOAn06nnLDojRzHgCs6zxGfCT9a35cm8AJiotWnZFXRcsdk/329024lsLrS9DIeqLZhmIJHDOldGlDw==
+tumblr.js@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/tumblr.js/-/tumblr.js-2.0.2.tgz#e3919fdf7c901e76688079743f66f56e0d814b55"
+  integrity sha512-+E0VWoo+LCDD67e3f6+D1RvmypGypM0N4je5WLFjZl0sbRy4XWiwhqFECZVoontZfRs2rTGzdoY/4Xupw/eFoQ==
   dependencies:
-    lodash "^4.17.10"
+    lodash "^4.17.11"
     query-string "^6.1.0"
-    request "^2.87.0"
+    request "^2.88.0"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
