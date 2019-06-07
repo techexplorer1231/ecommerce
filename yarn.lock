@@ -4837,10 +4837,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.16.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.1.tgz#534c2c9d7853f8845e5e078384e71973bd74089f"
-  integrity sha512-XXUITwIkGb3CPJ2hforHah/zTINRyie5006Jd2HKy2qz7snEJXl0KLfsJZW/wst9g6R2rFvqba3VpNYdu1hDcA==
+prettier@^1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.1.tgz#2c79bdc97cbd457fc56e2f37c91cf076d69a8e07"
+  integrity sha512-cO2Lm9UuFJHhNgHSChbFddQEzNPP+sA6fX1tGmC0VNqTc2X+7EH0gpGWdEX0HfCe5+NVyOyyyWUpLKsb8LU5vg==
 
 pretty-format@^23.6.0:
   version "23.6.0"
